@@ -16,7 +16,7 @@
 - chore: move `createClientIfNotExist` [\#18](https://github.com/babylonchain/babylon-relayer/pull/18) ([SebastianElvis](https://github.com/SebastianElvis))
 - chore: cleanup example config files [\#17](https://github.com/babylonchain/babylon-relayer/pull/17) ([SebastianElvis](https://github.com/SebastianElvis))
 - feat: store client ID in LevelDB rather than config file [\#16](https://github.com/babylonchain/babylon-relayer/pull/16) ([SebastianElvis](https://github.com/SebastianElvis))
-- feat: replace in-process lock with a filesystem lock for running concurrent relayers [\#15](https://github.com/babylonchain/babylon-relayer/pull/15) ([SebastianElvis](https://github.com/SebastianElvis))
+- feat: replace the in-process lock with a filesystem lock for running concurrent relayers [\#15](https://github.com/babylonchain/babylon-relayer/pull/15) ([SebastianElvis](https://github.com/SebastianElvis))
 - chore: bump relayer dependency [\#14](https://github.com/babylonchain/babylon-relayer/pull/14) ([SebastianElvis](https://github.com/SebastianElvis))
 - fix: write client ID back to config file on-the-fly [\#13](https://github.com/babylonchain/babylon-relayer/pull/13) ([SebastianElvis](https://github.com/SebastianElvis))
 
@@ -26,7 +26,7 @@
 
 **Closed issues:**
 
-- Update to latest `main` branch of relayer [\#28](https://github.com/babylonchain/babylon-relayer/issues/28)
+- Update to the latest `main` branch of relayer [\#28](https://github.com/babylonchain/babylon-relayer/issues/28)
 
 ## [v0.3.0](https://github.com/babylonchain/babylon-relayer/tree/v0.3.0) (2023-06-07)
 
