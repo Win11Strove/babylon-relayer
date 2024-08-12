@@ -30,11 +30,11 @@ make test
 
 ## Configuration
 
-The configuration of Babylon relayer is exactly the same as the official IBC relayer.
+The configuration of the Babylon relayer is exactly the same as the official IBC relayer.
 Please read [the IBC relayer's documentation](https://github.com/cosmos/relayer/tree/main/docs).
 This repo also provides some example configurations under the `example/` directory.
 
-Note that some chains (e.g., Injective and EVMOS) impose extra codec formats for its RPC calls.
+Note that some chains (e.g., Injective and EVMOS) impose extra codec formats for their RPC calls.
 To support such chains, one needs to add an `"extra-codecs"` entry to its config json file.
 An example can be found in `examples/chains/injective.json`.
 
@@ -50,7 +50,7 @@ To add paths to `config.yaml`:
 babylon-relayer paths add-dir examples/paths
 ```
 
-To restore secret keys from mnenomics:
+To restore secret keys from mnemonics:
 ```console
 babylon-relayer keys restore $CHAIN $KEY_NAME $MNEMONICS
 ```
